@@ -13,6 +13,9 @@ var app = express();
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/angcms');
 var db = mongoose.connection;
+var session = require('express‐session');
+app.use (session());
+
 
 var api = require('./routes/api');
 app.use('/api', api);

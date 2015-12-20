@@ -16,6 +16,8 @@
     "stylus": "0.42.3"
   },
   "devDependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express-session": "^1.12.1",
     "mongoose": "^4.3.3"
   }
 }
