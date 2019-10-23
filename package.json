@@ -18,6 +18,6 @@
   "devDependencies": {
     "bcrypt-nodejs": "0.0.3",
     "express-session": "^1.12.1",
-    "mongoose": "^4.3.3"
+    "mongoose": "^5.7.6"
   }
 }
